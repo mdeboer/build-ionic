@@ -1,0 +1,38 @@
+{
+  "name": "build-ionic",
+  "main": "./lib/main",
+  "version": "1.0.0",
+  "description": "Ionic Framework build provider for atom",
+  "keywords": [
+    "android",
+    "ios",
+    "windowsphone",
+    "ionic",
+    "smartphone",
+    "build"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mdeboer/build-ionic.git"
+  },
+  "license": "GPL-2.0",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "providedServices": {
+    "builder": {
+      "description": "Ionic Framework build provider for atom",
+      "versions": {
+        "2.0.0": "provideBuilder"
+      }
+    }
+  },
+  "dependencies": {
+    "promise": "^7.1.1"
+  },
+  "bugs": {
+    "url": "https://github.com/mdeboer/build-ionic/issues"
+  },
+  "homepage": "https://github.com/mdeboer/build-ionic",
+  "readmeFilename": "README.md"
+}
